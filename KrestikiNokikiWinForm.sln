@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrestikiNokikiWinForm", "KrestikiNokikiWinForm\KrestikiNokikiWinForm.csproj", "{7BEF9EB5-4FE3-4123-A637-F1243298DE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{5286FB5C-6841-4311-B446-94F0C264F3D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEF9EB5-4FE3-4123-A637-F1243298DE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEF9EB5-4FE3-4123-A637-F1243298DE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEF9EB5-4FE3-4123-A637-F1243298DE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEF9EB5-4FE3-4123-A637-F1243298DE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5286FB5C-6841-4311-B446-94F0C264F3D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5286FB5C-6841-4311-B446-94F0C264F3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5286FB5C-6841-4311-B446-94F0C264F3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5286FB5C-6841-4311-B446-94F0C264F3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D8472D5-5617-432C-8DDB-2CD7850D4C69}
+	EndGlobalSection
+EndGlobal
