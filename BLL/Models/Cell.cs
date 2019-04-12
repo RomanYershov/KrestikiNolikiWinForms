@@ -8,12 +8,12 @@ namespace BLL.Models
 {
    public  class Cell
    {
-       private int _index;
+       public int Index { get; private set; }   
         public string Content { get; set; }
 
         public Cell(int index)
         {
-            _index = index;
+            Index = index;
             Content = string.Empty;
         } 
     }

@@ -18,13 +18,5 @@ namespace BLL.Models
                 Cells.Add(new Cell(i));
             }
         }
-
-        public void Clear()
-        {
-            foreach (var cell in Cells)
-            {
-                cell.Content = string.Empty;
-            }
-        }
     }
 }

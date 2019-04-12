@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\GameBase.cs" />
     <Compile Include="Abstraction\IPlayer.cs" />
     <Compile Include="Abstraction\WinnerCheck.cs" />
     <Compile Include="Models\Cell.cs" />
@@ -48,8 +49,10 @@
     <Compile Include="Models\CheckWinnerBase.cs" />
     <Compile Include="Models\CheckWinVertical.cs" />
     <Compile Include="Models\Field.cs" />
-    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\PlayerComp.cs" />
     <Compile Include="Models\PlayerO.cs" />
+    <Compile Include="Models\PlayerVsComuter.cs" />
+    <Compile Include="Models\PlayerVSPlayer.cs" />
     <Compile Include="Models\PlayerX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

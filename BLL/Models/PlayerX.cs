@@ -9,9 +9,10 @@ namespace BLL.Models
 {
     public class PlayerX : IPlayer
     {
-        public string Move()
+        public Cell Move(Field field, int index)
         {
-            return "X";
+            field.Cells[index].Content = "X";
+            return new Cell(index){Content = "X"};
         }
     }
 }
